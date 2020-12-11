@@ -1,0 +1,23 @@
+.Easy{
+    background-color: #1ba94c;
+}
+
+.Medium{
+    background-color: #0062cc;
+}
+
+.Hard{
+    background-color: #ff0000;
+}
+
+.Difficult{
+    margin-right: 10px;
+    color:#fff;
+    border-radius:5px;
+    line-height:15px;
+    text-align:center;
+    font-weight: 520;
+    
+    font-family: "Roboto,Helvetica,Arial,sans-serif";
+
+}

@@ -1,0 +1,53 @@
+.ProblemListDiv{
+    background-color: #ffffff;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    border-radius: 7px;
+    padding:1rem;
+    border-width: thin;
+    border-style: solid;
+    border-color: #c3c2c2;
+    position: relative;
+}
+/*altarnative border color lightgray*/
+.ProblemListDiv:hover{
+    box-shadow: #3b3e43 0px 0px 10px 1px;
+}
+.PItemHeader{
+    justify-content: space-between;
+    display: flex;
+}
+.PItemHeaderUnit{
+    display: inline-flex;
+    color:rgb(109, 109, 109);
+    font-size: 20px;
+    align-items: center;
+}
+.PItemTitle{
+    color:#0e141e;
+    cursor: pointer;
+    margin-bottom:0;
+    padding-right: 35px;
+    font-weight: 550;
+}
+.PItemLangList{
+    padding-right:45px;
+    display:inline-flex;
+    justify-content:flex-end;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.PItemLang{
+    border-radius:7px;
+    background-color:rgb(250, 250, 250);
+    border:1px solid rgba(0, 0, 0, 0.05);
+    padding:7px;
+    margin:5px;
+    cursor: pointer;
+}
+.Bookmark{
+    position:absolute;
+    top:-1px;
+    right:9px;
+    cursor: pointer;
+}

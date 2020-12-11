@@ -1,0 +1,16 @@
+.NavCode{
+    height: 5vh;
+    background-color: #202124;
+    z-index: 1;
+    display: flex;
+    border-bottom: 2px solid #414141;
+}
+.NavName{
+    font-size:20px;
+    padding:0;
+    margin:auto;
+    color:white;
+    margin-right:0;
+    margin-left:4px;
+    text-align:left;
+}

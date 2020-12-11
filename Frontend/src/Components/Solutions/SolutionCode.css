@@ -1,0 +1,11 @@
+.CodeMirror {
+    border: 1px solid #dee2e6;
+    resize: unset;
+    overflow: hidden !important;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+    width: unset !important;
+    background-color: #f2f3f8;
+    border-radius: 0;
+  }
