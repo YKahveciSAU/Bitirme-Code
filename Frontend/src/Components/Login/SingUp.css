@@ -1,0 +1,20 @@
+.textInput{
+    margin-bottom:10px;
+    margin-top:10px;
+    font-size:15px;
+    padding:8px 12px;
+    border:2px solid #cfd8dc;
+}
+.textInputFalse{
+    margin-bottom:10px;
+    margin-top:10px;
+    font-size:15px;
+    padding:8px 12px;
+    border:2px solid #ff0606;
+}
+.textInput:focus{
+    outline:2px solid #cfd8dc;
+}
+.textInputFalse:focus{
+    outline:2px solid #ff0606;
+}
