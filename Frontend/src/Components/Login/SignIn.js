@@ -1,12 +1,24 @@
 import React, { useState } from 'react'
 
 import './SignIn.css'
+import { loginUser, useAuthState, useAuthDispatch } from '../../Context/user/index';
 
-function SignIn() {
+function SignIn(props) {
     const [userName,setUserName]=useState("");
     const [userPassword,setUserPassword]=useState("")
-    const UserLogin = () =>{
-        console.log("user :"+ userName + " userpass : " + userPassword)
+
+    const dispatch = useAuthDispatch();
+    const { loading, errorMessage } = useAuthState();
+    
+    const UserLogin = async(e) =>{
+        e.preventDefault();
+		try {
+			let response = await loginUser(dispatch, { "username":userName, "password":userPassword });
+            if (!response.authority) return;
+            props.history.push('/');
+		} catch (error) {
+			console.log(error);
+		}
     }
     return (
             <div style={{paddingLeft:"10px",paddingRight:"10px",display:"flex",flexDirection:"column",width:"100%"}}>
