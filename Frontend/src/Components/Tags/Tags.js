@@ -4,8 +4,8 @@ function Tags(props) {
     return (
         <section className="tagsList">
             {
-                props.tags.map(tag => 
-                    <p className="tags">{tag}</p>
+                props.tags.map((tag,index) => 
+                    <p className="tags" key={index}>{tag}</p>
                     )
             }
         </section>

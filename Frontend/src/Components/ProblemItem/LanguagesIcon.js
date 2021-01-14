@@ -8,22 +8,24 @@ const ProgrammingLanguages=({
 })=>{
     let ProgramLanguage=null;
     switch (Language){
-        case "python":
+        case "Python":
             ProgramLanguage=SiPython;
             break;
-        case "cplusplus":
+        case "C++":
             ProgramLanguage=SiCplusplus;
             break;
-        case "csharp":
+        case "C#":
             ProgramLanguage=SiCsharp;
             break;
-        case "c":
+        case "C":
             ProgramLanguage=SiC;
             break;
-        case "ruby":
+        case "Ruby":
             ProgramLanguage=SiRuby;
             break;
         default:
+            ProgramLanguage=SiCsharp;
+            break;
     }
     const ThemeMode=Mode.includes(theme) ? "#000000" : "#7d8bcc";
     const iconSize=size ? size : "30";

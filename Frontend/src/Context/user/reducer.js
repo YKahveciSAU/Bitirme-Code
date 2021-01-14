@@ -1,4 +1,3 @@
-import React, { useState, useReducer } from 'react';
 
 let authority = localStorage.getItem("currentUser")
   ? JSON.parse(localStorage.getItem("currentUser")).authority

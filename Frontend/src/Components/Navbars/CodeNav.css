@@ -14,3 +14,52 @@
     margin-left:4px;
     text-align:left;
 }
+.NavCodeMain{
+    display: flex;
+    align-items: center;
+    height: 89px;
+    background-color: #fff;
+    z-index: 1;
+    border-color: rgba(0,0,0,.1);
+    margin-bottom: 2vh;
+    padding:1rem 3%;
+    border-top-style:solid;
+    border-top-width:1px;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: #c3c2c2;
+}
+.btnn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 10px 28px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+button:focus{
+    outline:none !important;
+}
+.color{
+    border-top-style:solid;
+    border-width:10px 0;
+    border-image:linear-gradient(139deg,#12c2e9,#c471ed,#f64f59) 3;}
+/*
+border-image:linear-gradient(139deg,#12c2e9,#c471ed,#f64f59) 3;
+border-image:linear-gradient(139deg,#FC5C7D,#6A82FB) 3;
+*/
+.NavName2{
+    font-size:25px;
+    font-weight: bold;
+    padding:0;
+    margin:auto;
+    color:black;
+    margin-right:0;
+    margin-left:4px;
+    text-align:left;
+}
+.pitem{
+    margin-bottom: 0 !important;
+    
+}

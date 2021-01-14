@@ -6,7 +6,7 @@ function SolutionList(props) {
     const [solution,setSolution]=useState([]);
     useEffect(()=>{
         setSolution(fetchUserSolutions(props.id));
-    },[])
+    },[props.id])
     return (
         <Row>
             {solution.map((Sol,index) => (

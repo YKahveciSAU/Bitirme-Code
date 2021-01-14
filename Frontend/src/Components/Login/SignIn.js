@@ -1,14 +1,13 @@
 import React, { useState } from 'react'
 
 import './SignIn.css'
-import { loginUser, useAuthState, useAuthDispatch } from '../../Context/user/index';
+import { loginUser, useAuthDispatch } from '../../Context/user/index';
 
 function SignIn(props) {
     const [userName,setUserName]=useState("");
     const [userPassword,setUserPassword]=useState("")
 
     const dispatch = useAuthDispatch();
-    const { loading, errorMessage } = useAuthState();
     
     const UserLogin = async(e) =>{
         e.preventDefault();

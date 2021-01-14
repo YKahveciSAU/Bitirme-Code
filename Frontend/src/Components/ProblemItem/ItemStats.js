@@ -1,5 +1,6 @@
 import React from 'react'
-import {AiOutlineStar,AiFillStar,AiOutlineLike} from 'react-icons/ai'
+import {AiOutlineStar,AiOutlineLike} from 'react-icons/ai'
+//AiFillStar
 import {HiOutlineBadgeCheck} from 'react-icons/hi'
 import {BiPurchaseTagAlt} from 'react-icons/bi'
 import Tags from '../Tags/Tags'

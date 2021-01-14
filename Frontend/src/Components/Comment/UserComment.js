@@ -9,11 +9,11 @@ function UserComment(props) {
             <div className="userCom">
                 <div className="Comment">
                     <div className="UserDetail">
-                        <div style={{display:"flex",alignItems:"center"}}>
+                        <div style={{display:"flex",flex:1,alignItems:"center"}}>
                             <ProfilePhoto name={props.name}/>
-                            <a style={{font:"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif",marginLeft:"14px",fontWeight:"600"}}>
+                            <p  style={{font:"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif",margin:"0",marginLeft:"14px",fontWeight:"600",textAlign:"center",alignItems:"center"}}>
                                 {props.name}
-                            </a>
+                            </p>
                         </div>
                         <p className="date">{props.date}</p>
                     </div>
